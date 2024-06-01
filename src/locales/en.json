@@ -1,0 +1,78 @@
+{
+  "navbar": {
+    "home": "Home",
+    "about": "About",
+    "shop": "Shop",
+    "contact": "Contact"
+  },
+  "footer": {
+    "description": "Discover a wide range of small appliances at affordable prices! Your kitchen will be fully equipped with our help. Find the perfect appliance for your needs, from blenders and mixers to fryers and food processors. Everything at a click away!",
+    "links": "quick links",
+    "contact": "contact us",
+    "email": "Do you have any queries or suggestions?",
+    "number": "If you need support? Just give us a call.",
+    "payment": "Payment Options"
+  },
+  "review": {
+    "title": "Customers Reviews",
+    "Name": "MIhai Mihai",
+    "Comment": "“I stumbled upon this tech store while searching for a new laptop, and I couldn't be happier with my experience! The staff was incredibly knowledgeable and guided me through the process of choosing the perfect device for my needs. Highly recommended!”"
+  },
+
+  "home": {
+    "main_banner": {
+      "title": "small appliances",
+      "message": "Limited stocks available. Grab it now!",
+      "button": "Shop Colection"
+    },
+    "features": {
+      "f1": "free delivery",
+      "f1-detail": "Free shipping to your address",
+      "f2": "Quality guarantee",
+      "f2-detail": "Quality products with warranty, satisfaction guaranteed.",
+      "f3": "Daily offers",
+      "f3-detail": "Discover new and exciting offers every day",
+      "f4": "100% secure payment",
+      "f4-detail": "Secure payment methods, protected financial information."
+    },
+    "categories": {
+      "title": "Categories",
+      "category1": "Microwave oven",
+      "category2": "Kettle",
+      "category3": "Toaster",
+      "category4": "Food Processor",
+      "category5": "Coffeemaker"
+    },
+    "discount": {
+      "title": "20% discount on summer collection",
+      "button": "Shop Colection",
+      "day": "Days",
+      "hour": "Hrs",
+      "min": "Min",
+      "sec": "Sec"
+    }
+  },
+  "About": {
+    "banner": "About Us",
+    "title": " Best Digital Store",
+    "description": "The magic of small appliances MicroMagic - the online store of small appliances that transforms your kitchen! Find a wide range of quality appliances at affordable prices. Diversity, quality, ease, impeccable service and warranty - MicroMagic offers you an exceptional shopping experience. Discover the magic of the modern kitchen with MicroMagic!",
+    "button": "Go To Shop"
+  },
+  "Checkout": {
+    "banner": "Checkout",
+    "detailsTitle": "Billing details"
+  },
+  "Contact": {
+    "banner": "Contact"
+  },
+  "Shop": {
+    "banner": "Shop",
+    "filter1": "Categories",
+    "filter2": "Brands",
+    "filter3": "Filter by price"
+  },
+
+  "Cart": {
+    "banner": "Cart"
+  }
+}

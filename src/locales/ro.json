@@ -1,0 +1,54 @@
+{
+  "navbar": {
+    "home": "Acasă",
+    "about": "Despre noi",
+    "shop": "Magazin",
+    "contact": "Contact"
+  },
+  "footer": {
+    "description": "Descoperiți o gamă largă de electrocasnice mici la prețuri accesibile! Cu ajutorul nostru, bucătăria dumneavoastră va fi complet echipată. Găsiți aparatul perfect pentru nevoile dvs., de la blendere și mixere la friteuze și roboți de bucătărie. Totul la un click distanță!",
+    "links": "linkuri rapide",
+    "contact": "contactați-ne",
+    "email": "Aveți întrebări sau sugestii?",
+    "number": "Aveți nevoie de suport? Sunați-ne.",
+    "payment": "Opțiuni de plată"
+  },
+  "home": {
+    "main_banner": {
+      "title": "electrocasnice mici",
+      "message": "Stocuri limitate disponibile. Prindeți acum!",
+      "button": "Cumpără Colecția"
+    },
+    "features": {
+      "f1": "livrare gratuită",
+      "f1-detail": "Transport gratuit la adresa dvs.",
+      "f2": "Garanția calității",
+      "f2-detail": "Produse de calitate cu garanție, satisfacție garantată.",
+      "f3": "Oferte zilnice",
+      "f3-detail": "Descoperiți oferte noi și interesante în fiecare zi",
+      "f4": "100% plată securizată",
+      "f4-detail": "Metode de plată securizate, informații financiare protejate."
+    },
+    "categories": {
+      "title": "Categorii",
+      "category1": "Cuptor cu microunde",
+      "category2": "Fierbător",
+      "category3": "Prăjitor de pâine",
+      "category4": "Robot de bucătărie",
+      "category5": "Cafetieră"
+    },
+    "discount": {
+      "title": "20% reducere la colecția de vară",
+      "button": "Cumpără Colecția",
+      "day": "Zile",
+      "hour": "Ore",
+      "min": "Min",
+      "sec": "Sec"
+    }
+  },
+  "review": {
+    "title": "Recenziile Clienților",
+    "Name": "MIhai Mihai",
+    "Comment": "“Am descoperit acest magazin de tehnologie în timp ce căutam un laptop nou și nu aș putea fi mai fericit cu experiența mea! Personalul a fost extrem de cunoscător și m-a ghidat prin procesul de alegere a dispozitivului perfect pentru nevoile mele. Recomand cu căldură!”"
+  }
+}
