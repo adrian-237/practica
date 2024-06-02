@@ -402,15 +402,3 @@ onUnmounted(() => {
     </div>
   </div>
 </template>
-
-<script>
-function MyClock() {
-  const [time, setTime] = useState(1000000);
-
-  const timer = setInterval(() => {
-    setTime((oldTime) => oldTime--);
-  }, 1000);
-
-  return <span>{time}</span>;
-}
-</script>
