@@ -1,5 +1,5 @@
 <script setup>
-import { ref } from "vue";
+import { ref, onUnmounted } from "vue";
 import { useI18n } from "vue-i18n";
 
 import ShopIcon from "./../components/icons/shopping-cart.vue";
@@ -15,6 +15,18 @@ import Footer from "../components/Footer.vue";
 import { RouterLink } from "vue-router";
 
 const { t, locale } = useI18n();
+
+let date = "2024-06-25";
+let timeLeft = ref(Math.floor((new Date(date) - new Date()) / 1000));
+
+const clock = setInterval(() => {
+  timeLeft.value -= 1;
+  console.log(timeLeft.value);
+}, 1000);
+
+onUnmounted(() => {
+  clearInterval(clock);
+});
 </script>
 
 <template>
@@ -170,22 +182,28 @@ const { t, locale } = useI18n();
       </h2>
       <div class="time flex gap-5">
         <div class="days flex flex-col items-center justify-center">
-          <div class="day bold text-3xl md:text-5xl">21</div>
+          <div class="day bold text-3xl md:text-5xl">
+            {{ Math.floor(timeLeft / (60 * 60 * 24)) % 30 }}
+          </div>
           <p class="font-thin text-lg">{{ $t("home.discount.day") }}</p>
         </div>
         <div class="flex items-center text-primary text-5xl">:</div>
         <div class="days flex flex-col items-center justify-center">
-          <div class="day bold text-3xl md:text-5xl">22</div>
+          <div class="day bold text-3xl md:text-5xl">
+            {{ Math.floor(timeLeft / (60 * 60)) % 24 }}
+          </div>
           <p class="font-thin text-lg">{{ $t("home.discount.hour") }}</p>
         </div>
         <div class="flex items-center text-primary text-5xl">:</div>
         <div class="days flex flex-col items-center justify-center">
-          <div class="day bold text-3xl md:text-5xl">19</div>
+          <div class="day bold text-3xl md:text-5xl">
+            {{ Math.floor(timeLeft / 60) % 60 }}
+          </div>
           <p class="font-thin text-lg">{{ $t("home.discount.min") }}</p>
         </div>
         <div class="flex items-center text-primary text-5xl">:</div>
         <div class="days flex flex-col items-center justify-center">
-          <div class="day bold text-3xl md:text-5xl">30</div>
+          <div class="day bold text-3xl md:text-5xl">{{ timeLeft % 60 }}</div>
           <p class="font-thin text-lg">{{ $t("home.discount.sec") }}</p>
         </div>
       </div>
@@ -384,3 +402,15 @@ const { t, locale } = useI18n();
     </div>
   </div>
 </template>
+
+<script>
+function MyClock() {
+  const [time, setTime] = useState(1000000);
+
+  const timer = setInterval(() => {
+    setTime((oldTime) => oldTime--);
+  }, 1000);
+
+  return <span>{time}</span>;
+}
+</script>
